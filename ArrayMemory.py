@@ -1,6 +1,8 @@
+# Example with standard array
+
 from dotenv import load_dotenv
 import os
-# https://python.langchain.com/en/latest/modules/memory/types/buffer.html
+
 
 from langchain.chat_models import ChatOpenAI #wrapper for openai
 from langchain.schema import ( SystemMessage, HumanMessage, AIMessage)
